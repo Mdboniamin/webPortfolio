@@ -176,3 +176,27 @@ main section {
 .resume-download-cv{
     margin-top: 50px;
 }
+/* footer styles */
+footer{
+    padding: 130px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.footer-icon{
+    display: flex;
+    gap: 20px;
+}
